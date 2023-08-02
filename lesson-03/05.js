@@ -26,6 +26,7 @@ const newObj = {
     address: 'Unknown'
 }
 
+newObj.id = 4
 
 users2.push(newObj)
 
