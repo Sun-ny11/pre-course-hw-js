@@ -61,8 +61,4 @@ const users = [
     }
 ];
 
-for(let i = 0; i < users.length; i++) {
-    if(users[i].id % 2 == 0) {
-      console.log(users[i])
-    }
-} 
+console.log(users.filter(item => item.id % 2 == 0))
